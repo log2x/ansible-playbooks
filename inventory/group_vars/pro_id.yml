@@ -1,0 +1,40 @@
+root: new.hpshopping.id.22
+frontend_languages: en_US en_AU id_ID
+backend_languages: en_US en_AU
+frontend_themes: HPOLS/default HPOLS/stellar
+localizations: id-id id-en
+server_ips: 172.31.83.253 172.31.80.232
+varnish_ip: 172.31.83.253
+primary_server_ip: 172.31.83.253
+server_names: hpida hpidx
+server_region: singapore
+database:
+  backup_server_name: hpidx
+  backup_dir: /home/ubuntu/db/ID
+  db_host: hp-hk-id-th-instance.crky58jizplw.ap-southeast-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: TvgLraGQ8h+zNY7Bhqk81g==
+  db_name: hpid2
+  ignore_tables: reporting_system_updates
+  related_countries: id th
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: media.hpshopping.id
+  s3_file_bucket: staticfiles.hpshopping.id
+  s3_bigtable_bucket: large-tables-ap
+  s3_endpoint:
+  cloudfront_distribution_id: E1VLPZ5RI011RG
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases_id
+maintenance_file: maintenance-id.html
+sitemap_dirs: en id
+sitemap_files:
+composer_bin: /usr/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/id-en/shop
+category_url: https://www.hp.com/id-en/shop/laptops-tablets.html
+product_url: https://www.hp.com/id-en/shop/laptops-tablets/victus-by-hp-laptop-16-e0085ax-492k3pa.html
+

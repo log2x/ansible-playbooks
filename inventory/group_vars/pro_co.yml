@@ -1,0 +1,40 @@
+root: co.hp.php9.cc
+frontend_languages: en_US es_CO
+frontend_themes: HPOLS/default
+backend_languages: en_US
+localizations: co-es
+server_ips: 172.31.77.58 172.31.77.47
+varnish_ip: 172.31.77.58
+primary_server_ip: 172.31.77.47
+server_names: hpmx hpco
+server_region: saopaulo
+database:
+  backup_server_name: hpmx
+  backup_dir: /home/ubuntu/db/CO
+  db_host: hpolslatampro-mx-co.cyfhmojdkg3e.sa-east-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: rzft/u8hrSwtLZLrP18MFQ==
+  db_name: hpco
+  ignore_tables: reporting_system_updates
+  related_countries: mx co
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: co.media.hptiendaenlinea.com
+  s3_file_bucket: co.files.hptiendaenlinea.com
+  s3_bigtable_bucket: large-tables
+  s3_endpoint:
+  cloudfront_distribution_id: ECUE7KEXCEOLF
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases_co
+maintenance_file: maintenance.html
+sitemap_dirs:
+sitemap_files: sitemap.xml
+composer_bin: /usr/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/co-es/shop/
+category_url: https://www.hp.com/co-es/shop/portatiles.html
+product_url: https://www.hp.com/co-es/shop/portatiles/portatil-hp-14-cf2075la-29b29la.html
+

@@ -1,0 +1,40 @@
+root: www.hpshopping.in
+frontend_languages:
+backend_languages:
+frontend_themes: HPOLS/default HPOLS/stellar
+localizations: in-en
+server_ips: 172.31.72.204 172.31.64.126 172.31.75.3 172.31.69.243 172.31.72.57
+varnish_ip: 172.31.75.3
+primary_server_ip: 172.31.69.243
+server_names: hpina hpinb hpinc hpinx hpind
+server_region: mumbai
+  database:
+  backup_server_name: hpinx
+  backup_dir: /home/ubuntu/db
+  db_host: hp-in-instance.clmlyplvpqds.ap-south-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: LU4rKKZji3B1tdqVmf8Fmg==
+  db_name: hpin216
+  ignore_tables: hpols_order_api_history elasticsuite_tracker_log_event hpols_sms sales_order_status_history reporting_system_updates bazaarvoice_product_cl
+  related_countries: in
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: media.hpshopping.in
+  s3_file_bucket: staticfiles.hpshopping.in
+  s3_bigtable_bucket: large-tables-ap
+  s3_endpoint:
+  cloudfront_distribution_id: E3HKJHGCY9CCGF
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases
+maintenance_file: maintenance.html
+sitemap_dirs:
+sitemap_files:
+composer_bin: /usr/local/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms-url: https://www.hp.com/in-en/shop/
+category-url: https://www.hp.com/in-en/shop/laptops-tablets.html
+product-url: https://www.hp.com/in-en/shop/laptops-tablets/hp-envy-laptop-14-eb0019tx-389u8pa.html
+

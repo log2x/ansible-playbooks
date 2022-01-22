@@ -1,0 +1,41 @@
+root: new.hpshopping.hk
+frontend_languages: en_US zh_Hant_HK
+backend_languages: en_US
+frontend_themes: HPOLS/default HPOLS/stellar
+localizations: hk-zh hk-en
+server_ips: 172.16.5.124 172.16.5.65
+varnish_ip: 172.16.5.124
+cron_ip: 172.16.5.65
+primary_server_ip: 172.16.5.65
+server_names: hphka hphkx
+server_region: hongkong
+database:
+  backup_server_name: hphkx
+  backup_dir: /home/ubuntu/db/HK
+  db_host: hp-hk-instance.cuqzcdh2fmyn.ap-east-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: 4NSDHg+gNKe9j2QI/LxC0w==
+  db_name: hphk
+  ignore_tables: reporting_system_updates
+  related_countries: hk
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: hk-media.apjonlinecdn.com
+  s3_file_bucket: hk-files.apjonlinecdn.com
+  s3_bigtable_bucket: large-tables-ap
+  s3_endpoint:
+  cloudfront_distribution_id: E3P08EKMIK85OT
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases_hk
+maintenance_file: maintenance-hk.html
+sitemap_dirs:
+sitemap_files:
+composer_bin: /usr/local/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/hk-en/shop
+category_url: https://www.hp.com/hk-en/shop/printers.html
+product_url: https://www.hp.com/hk-en/shop/printers/hp-deskjet-3720-all-in-one-printer-j9v86a.html
+

@@ -1,0 +1,39 @@
+root: my.apjonlinecdn.com
+frontend_languages: en_US ms_MY
+backend_languages: en_US
+frontend_themes: HPOLS/default HPOLS/stellar
+localizations: my-en
+server_ips: 172.31.92.209 172.31.94.250
+varnish_ip: 172.31.92.209
+primary_server_ip: 172.31.92.209
+server_names: hpsg hpmy
+server_region: singapore
+database:
+  backup_server_name: hpsg
+  backup_dir: /home/ubuntu/db/MY
+  db_host: hp-my-sg-instance.crky58jizplw.ap-southeast-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: B+z0kVWAz4P/SIQSbqnKdg==
+  db_name: hpmy
+  ignore_tables: reporting_system_updates
+  related_countries: my sg
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: my.media.apjstellarcdn.com
+  s3_file_bucket: my.files.apjstellarcdn.com
+  s3_bigtable_bucket: large-tables-ap
+  s3_endpoint:
+  cloudfront_distribution_id: E14J8DA28PYPG9
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases_my
+maintenance_file: maintenance.html
+sitemap_dirs:
+sitemap_files: sitemap.xml
+composer_bin: /usr/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/my-en/shop/
+category_url: https://www.hp.com/my-en/shop/laptops-tablets.html
+product_url: https://www.hp.com/my-en/shop/laptops-tablets/hp-pavilion-aero-laptop-13-be0049au-4d8j2pa.html

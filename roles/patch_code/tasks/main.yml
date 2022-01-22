@@ -1,0 +1,11 @@
+- name: patch
+  patch: 
+    src: "{{patch_path}}"
+    basedir: "{{html_root}}/{{root}}"
+    strip: 1
+- name: clean opcache
+  shell: sudo -u ubuntu -H /usr/bin/curl http://localhost:8089/opcache-gui/?reset=1 --user hp:pwd
+  register: clean_opcache_result
+
+- debug: var=clean_opcache_result
+

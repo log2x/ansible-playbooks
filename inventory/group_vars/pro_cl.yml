@@ -1,0 +1,41 @@
+root: cl.hp.php9.cc
+frontend_languages: en_US es_CL
+backend_languages: en_US
+frontend_themes: HPOLS/default
+localizations: cl-es
+server_ips: 172.31.68.187 172.31.73.19
+varnish_ip: 172.31.73.19
+cron_ip: 172.31.73.19
+primary_server_ip: 172.31.68.187
+server_names: hpcl hppe
+server_region: saopaulo
+database:
+  backup_server_name: hppe
+  backup_dir: /home/ubuntu/db/CL
+  db_host: hpolslatampro-clpe.cyfhmojdkg3e.sa-east-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: AQpPu8eAgG9Cx2Yw5E5uQw==
+  db_name: hpcl236
+  ignore_tables: reporting_system_updates hpols_order_api_history
+  related_countries: cl pe
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: cl.media.hptiendaenlinea.com
+  s3_file_bucket: cl.files.hptiendaenlinea.com
+  s3_bigtable_bucket: large-tables
+  s3_endpoint:
+  cloudfront_distribution_id: E3FORJWU0GN7R3
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases_cl
+maintenance_file: maintenance.html
+sitemap_dirs:
+sitemap_files: sitemap.xml
+composer_bin: /usr/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/cl-es/shop/
+category_url: https://www.hp.com/cl-es/shop/impresoras.html
+product_url: https://www.hp.com/cl-es/shop/impresoras/impresora-multifuncional-hp-smart-tank-530-4sb24a.html
+

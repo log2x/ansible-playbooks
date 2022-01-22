@@ -1,0 +1,40 @@
+root: au.apjonlinecdn.com
+frontend_languages:
+backend_languages:
+frontend_themes: HPOLS/default HPOLS/stellar
+localizations: au-en
+server_ips: 172.31.4.213 172.31.12.2 172.31.3.153
+varnish_ip: 172.31.4.213
+primary_server_ip: 172.31.3.153
+server_names: hpaux hpaua hpaub
+server_region: sydney
+database:
+  backup_server_name: hpaux
+  backup_dir: /home/ubuntu/db
+  db_host: hpolsauprod-encrypted.cphiobmkuc4y.ap-southeast-2.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: 2SDQvWPsjFkzPeyoM5Ziug==
+  db_name: hpau
+  ignore_tables: reporting_system_updates
+  related_countries: au
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: au-media.apjonlinecdn.com
+  s3_file_bucket: au-files.apjonlinecdn.com
+  s3_bigtable_bucket: large-tables-ap
+  s3_endpoint:
+  cloudfront_distribution_id: E3TOY6V3FHNVTJ
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases
+maintenance_file: maintenance.html
+sitemap_dirs:
+sitemap_files: sitemap.xml
+composer_bin: /usr/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/au-en/shop/
+category_url: https://www.hp.com/au-en/shop/laptops-tablets.html
+product_url: https://www.hp.com/au-en/shop/laptops-tablets/hp-spectre-x360-convertible-14-ea0020tu-2t0m8pa.html
+

@@ -1,0 +1,41 @@
+root: mx.hp.php9.cc
+frontend_languages: en_US es_MX
+backend_languages: en_US
+frontend_themes: HPOLS/default
+localizations: mx-es
+server_ips: 172.31.77.58 172.31.77.47
+varnish_ip: 172.31.77.58
+cron_ip: 172.31.77.58
+primary_server_ip: 172.31.77.47
+server_names: hpmx hpco
+server_region: saopaulo
+database:
+  backup_server_name: hpmx
+  backup_dir: /home/ubuntu/db/MX
+  db_host: hpolslatampro-mx-co.cyfhmojdkg3e.sa-east-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: rzft/u8hrSwtLZLrP18MFQ==
+  db_name: hpmx
+  ignore_tables: reporting_system_updates
+  related_countries: mx co
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: mx.media.hptiendaenlinea.com
+  s3_file_bucket: mx.files.hptiendaenlinea.com
+  s3_bigtable_bucket: large-tables
+  s3_endpoint:
+  cloudfront_distribution_id: E1FC0NLLP4H9Z
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases_mx
+maintenance_file: maintenance.html
+sitemap_dirs:
+sitemap_files: sitemap.xml
+composer_bin: /usr/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/mx-es/shop/
+category_url: https://www.hp.com/mx-es/shop/impresoras.html
+product_url: https://www.hp.com/mx-es/shop/impresoras/impresora-hp-ink-tank-wireless-415-z4b53a.html
+

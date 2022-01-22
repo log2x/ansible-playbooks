@@ -1,0 +1,38 @@
+root: new.hpstore.cn
+frontend_languages: en_US zh_Hans_CN
+backend_languages: en_US zh_Hans_CN
+frontend_themes: HPOLS/default HPOLS/stellar
+localizations:
+server_ips: 172.16.3.155 172.16.3.138 172.16.3.246
+varnish_ip: 172.16.3.138
+primary_server_ip: 172.16.3.155
+server_names: hpcnx hpcna hpcnb
+server_region:
+database:
+  backup_server_name: hpcnx
+  backup_dir: /home/ubuntu/db
+  db_host: web-mysql.coqkdiqnwlkp.rds.cn-northwest-1.amazonaws.com.cn
+  db_user: hpreadonly
+  db_password: JrY0Z8ob2/mbpscAZWayXA==
+  db_name: hpcn
+  ignore_tables: hpols_jd_history reporting_system_updates
+  related_countries: cn
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: media.hpstore.cn
+  s3_file_bucket: staticfiles.hpstore.cn
+  s3_endpoint:
+  cloudfront_distribution_id:
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases
+maintenance_file: maintenance-cn.html
+sitemap_dirs:
+sitemap_files: sitemap.xml sitemap_2.xml sitemap_4.xml sitemap_5.xml
+composer_bin: /usr/local/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms-url: https://www.hpstore.cn/
+category-url: https://www.hpstore.cn/laptops-tablets.html
+product-url: https://www.hpstore.cn/laptops-tablets/99-power-4n448pa.html

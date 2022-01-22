@@ -1,0 +1,41 @@
+root: pe.hp.php9.cc
+frontend_languages: en_US es_PE
+backend_languages: en_US
+frontend_themes: HPOLS/default
+localizations: pe-es
+server_ips: 172.31.68.187 172.31.73.19
+varnish_ip: 172.31.73.19
+cron_ip: 172.31.73.19
+primary_server_ip: 172.31.68.187
+server_names: hpcl hppe
+server_region: saopaulo
+database:
+  backup_server_name: hppe
+  backup_dir: /home/ubuntu/db/PE
+  db_host: hpolslatampro-clpe.cyfhmojdkg3e.sa-east-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: AQpPu8eAgG9Cx2Yw5E5uQw==
+  db_name: hppe236
+  ignore_tables: reporting_system_updates
+  related_countries: cl pe
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: pe-media.hptiendaenlinea.com
+  s3_file_bucket: pe.files.hptiendaenlinea.com
+  s3_bigtable_bucket: large-tables
+  s3_endpoint:
+  cloudfront_distribution_id: E3BYSEGCLXCU9K
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases_pe
+maintenance_file: maintenance.html
+sitemap_dirs:
+sitemap_files: sitemap.xml
+composer_bin: /usr/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/pe-es/shop/
+category_url: https://www.hp.com/pe-es/shop/laptops.html
+product_url: https://www.hp.com/pe-es/shop/laptops/laptop-hp-zbook-power-g7-2s4x6la.html
+

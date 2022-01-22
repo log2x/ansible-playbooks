@@ -1,0 +1,39 @@
+root: new.hpstorethailand.com.22
+frontend_languages: en_US en_CA th_TH
+backend_languages: en_US en_CA en_AU
+frontend_themes: HPOLS/default HPOLS/stellar
+localizations: th-th th-en
+server_ips: 172.31.80.232 172.31.83.253
+varnish_ip: 172.31.80.232
+primary_server_ip: 172.31.80.232
+server_names: hpida hpidx
+server_region: singapore
+database:
+  backup_server_name: hpidx
+  backup_dir: /home/ubuntu/db/TH
+  db_host: hp-hk-id-th-instance.crky58jizplw.ap-southeast-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: TvgLraGQ8h+zNY7Bhqk81g==
+  db_name: hpth2
+  ignore_tables: reporting_system_updates
+  related_countries: id th
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: media.hpstorethailand.com
+  s3_file_bucket: staticfiles.hpstorethailand.com
+  s3_bigtable_bucket: large-tables-ap
+  s3_endpoint:
+cloudfront_distribution_id: ELZ34GYOB7ON6
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases_th
+maintenance_file: maintenance-th.html
+sitemap_dirs: en th
+sitemap_files:
+composer_bin: /usr/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/th-en/shop
+category_url: https://www.hp.com/th-en/shop/laptops-tablets.html
+product_url: https://www.hp.com/th-en/shop/laptops-tablets/victus-by-hp-laptop-16-d0168tx-4d2a3pa.html

@@ -1,0 +1,40 @@
+root: ar.hp.php9.cc
+frontend_languages: en_US es_AR
+backend_languages: en_US
+frontend_themes: HPOLS/default
+localizations: ar-es
+server_ips: 172.31.48.179 172.31.49.41
+varnish_ip: 172.31.48.179
+primary_server_ip: 172.31.48.179
+server_names: hpar hpar-new
+server_region: saopaulo
+database:
+  backup_server_name: hpar
+  backup_dir: /home/ubuntu/db/AR
+  db_host: hpolslatampro-ar-br.cyfhmojdkg3e.sa-east-1.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: IkFjsMzM5WJ2OuEUiqbsQg==
+  db_name: hpar
+  ignore_tables: reporting_system_updates
+  related_countries: ar br
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: ar.media.hptiendaenlinea.com
+  s3_file_bucket: ar.files.hptiendaenlinea.com
+  s3_bigtable_bucket: large-tables
+  s3_endpoint:
+  cloudfront_distribution_id: E17MW4B6E24QA8
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases_ar
+maintenance_file: maintenance.html
+sitemap_dirs:
+sitemap_files: sitemap.xml
+composer_bin: /usr/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/ar-es/shop/
+category_url: https://www.hp.com/ar-es/shop/impresoras.html
+product_url: https://www.hp.com/ar-es/shop/impresoras/impresora-multifuncional-hp-smart-tank-515-1tj09a.html
+

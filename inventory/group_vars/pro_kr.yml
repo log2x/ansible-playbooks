@@ -1,0 +1,40 @@
+root: kr.apjonlinecdn.com
+frontend_languages: en_US ko_KR
+backend_languages: en_US
+frontend_themes: HPOLS/default HPOLS/stellar
+localizations: kr-ko
+server_ips: 172.31.17.89 172.31.21.132
+varnish_ip: 172.31.17.89
+primary_server_ip: 172.31.21.132
+server_names: hpkra hpkrx
+server_region: seoul
+database:
+  backup_server_name: hpkra
+  backup_dir: /home/ubuntu/db
+  db_host: hpolskrprod.c8dvlqrxmugx.ap-northeast-2.rds.amazonaws.com
+  db_user: hpreadonly
+  db_password: fhbk2lXBPsWRslfp7PjCeg==
+  db_name: hpkr
+  ignore_tables: reporting_system_updates
+  related_countries: kr
+  mysql_client_version: 8
+aws:
+  aws_bin: /usr/local/bin/aws
+  s3_bucket: kr-media.apjonlinecdn.com
+  s3_file_bucket: kr-files.apjonlinecdn.com
+  s3_bigtable_bucket: large-tables-ap
+  s3_endpoint:
+  cloudfront_distribution_id: EDSBIRBGTDKC7
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases
+maintenance_file: maintenance.html
+sitemap_dirs:
+sitemap_files:
+composer_bin: /usr/local/bin/composer
+scp_bin: scp
+ssh_bin: ssh
+cms_url: https://www.hp.com/kr-ko/shop/
+category_url: https://www.hp.com/kr-ko/shop/laptops-tablets.html
+product_url: https://www.hp.com/kr-ko/shop/laptops-tablets/hp-probook-635-aero-g7-notebook-pc-2z8y7pa.html
+
