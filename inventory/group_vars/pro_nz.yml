@@ -1,0 +1,8 @@
+root: nz.apjonlinecdn.com
+frontend_languages:
+backend_languages:
+frontend_themes: HPOLS/default HPOLS/stellar
+source_root: /home/ubuntu/release_sources
+html_root: /usr/share/nginx/html
+release_dir: /usr/share/nginx/html/releases
+maintenance_file: maintenance.html

@@ -7,17 +7,6 @@ server_ips: 172.31.72.204 172.31.64.126 172.31.75.3 172.31.69.243 172.31.72.57
 varnish_ip: 172.31.75.3
 primary_server_ip: 172.31.69.243
 server_names: hpina hpinb hpinc hpinx hpind
-server_region: mumbai
-  database:
-  backup_server_name: hpinx
-  backup_dir: /home/ubuntu/db
-  db_host: hp-in-instance.clmlyplvpqds.ap-south-1.rds.amazonaws.com
-  db_user: hpreadonly
-  db_password: LU4rKKZji3B1tdqVmf8Fmg==
-  db_name: hpin216
-  ignore_tables: hpols_order_api_history elasticsuite_tracker_log_event hpols_sms sales_order_status_history reporting_system_updates bazaarvoice_product_cl
-  related_countries: in
-  mysql_client_version: 8
 aws:
   aws_bin: /usr/local/bin/aws
   s3_bucket: media.hpshopping.in
