@@ -2,8 +2,8 @@
 hpcnx-aws
 hpcna-aws
 hpcnb-aws
-hpcnc
-hpcnd
+hpcnc-aws
+hpcnd-aws
 
 [pro_in]
 hpina
@@ -15,26 +15,22 @@ hpinx
 [pro_th]
 hptha
 hpthx
-hpthc
-hpthd
+
 
 [pro_id]
 hpida
 hpidx
-hpidc
-hpidd
+
 
 [pro_my]
 hpmy
 hpsg_my
-hpmyc
-hpmyd
+
 
 [pro_sg]
 hpsg
 hpmy_sg
-hpsgc
-hpsgd
+
 
 [pro_kr]
 hpkra
@@ -43,8 +39,7 @@ hpkrx
 [pro_hk]
 hphka
 hphkx
-hphkc
-hphkb
+
 
 [pro_nz]
 hpnza
