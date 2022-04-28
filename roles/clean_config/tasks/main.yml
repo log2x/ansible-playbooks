@@ -1,0 +1,5 @@
+- name: clean cache
+  shell: sudo -u www-data -H /usr/bin/php {{html_root}}/{{root}}/bin/magento cache:clean config
+  register: clean_config_cache_result
+
+- debug: var=clean_config_cache_result

@@ -1,0 +1,9 @@
+---
+- name: clean config cache
+  hosts: all
+
+  tasks:
+    - include_role:
+        name: clean_config
+
+# ansible-playbook clean_config --limit pro_cn
