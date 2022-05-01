@@ -6,4 +6,4 @@
     - include_role:
         name: clean_config
 
-# ansible-playbook clean_config --limit pro_cn
+# ansible-playbook clean_config.yml --limit pro_cn
