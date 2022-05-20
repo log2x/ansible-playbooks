@@ -1,0 +1,6 @@
+- name: Copy file with owner and permissions
+  copy:
+    src: files/seefx-client.jar
+    dest: /usr/share/nginx/html
+    owner: ubuntu
+    group: www-data

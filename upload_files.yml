@@ -1,0 +1,9 @@
+---
+- name: upload local files to server
+  hosts: all
+
+  tasks:
+    - include_role:
+        name: upload_files
+
+# ansible-playbook patch.yml -e src=/home/johnshi/Downloads/xxx --limit pro_cn
