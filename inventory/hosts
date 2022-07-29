@@ -1,17 +1,7 @@
 [pro_cn]
-hpcnx-aws
-hpcna-aws
-hpcnb-aws
-hpcnc
-hpcnd
-hpcne
-hpcnf
-hpcnh
-hpcni
-hpcng
-hpcnj
-
-
+hpcnx
+hpcna
+hpcnb
 
 [pro_in]
 hpina
@@ -43,6 +33,7 @@ hpmy_sg
 [pro_kr]
 hpkra
 hpkrx
+hpkrc
 
 [pro_hk]
 hphka
@@ -56,8 +47,9 @@ hpnzx
 [pro_au]
 hpaua
 hpaub
+hpauc
+hpaud
 hpaux
-
 
 [pro_co]
 hpco
