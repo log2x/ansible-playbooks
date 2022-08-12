@@ -1,0 +1,9 @@
+---
+- name: wget ansinble
+  hosts: all
+
+  tasks:
+    - include_role:
+        name: wget_files
+
+# ansible-playbook wget.yml --limit pro_cn

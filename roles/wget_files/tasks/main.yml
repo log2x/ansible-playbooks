@@ -1,0 +1,5 @@
+- name: wget files
+  shell: cd /home/ubuntu/tmp && sudo -u ubuntu -H wget https://download.bell-sw.com/java/17.0.4+8/bellsoft-jdk17.0.4+8-linux-amd64.tar.gz
+  register: wget_files_out
+
+- debug: var=wget_files_out

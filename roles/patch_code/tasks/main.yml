@@ -1,8 +1,21 @@
+# - name: git checkout 
+#   shell: cd {{html_root}}/{{root}} && sudo -u ubuntu -H git checkout -- app/code/HPOLS/Catalog/Block/Product/ProductList/OosNotifyPopup.php
+#   register: gitcheckout_result
+
+# - debug: var=gitcheckout_result
+
 - name: patch
   patch: 
     src: "{{patch_path}}"
     basedir: "{{html_root}}/{{root}}"
     strip: 1
+
+# - name: patch 
+#   shell: cd {{html_root}}/{{root}} && sudo -u ubuntu -H patch -p 1 < /home/ubuntu/patches/OosNotifyPopup.php.patch
+#   register: patch_result
+
+# - debug: var=patch_result
+
 - name: clean opcache
   shell: sudo -u ubuntu -H /usr/bin/curl http://localhost:8089/opcache-gui/?reset=1 --user hp:pwd
   register: clean_opcache_result
