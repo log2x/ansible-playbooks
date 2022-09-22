@@ -1,5 +1,5 @@
 - name: wget files
-  shell: sudo apt update && sudo apt install -y libcurl3-gnutls curl
+  shell: nvm alias default v16.17.0 && nvm use default
   register: wget_files_out
 
 - debug: var=wget_files_out
