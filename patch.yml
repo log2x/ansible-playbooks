@@ -6,4 +6,4 @@
     - include_role:
         name: patch_code
 
-# ansible-playbook patch.yml -e patch_path=/home/jeckshi/Downloads/0001-HSI-5688-HPST-43748-fix-issue-for-redirect-url.patch --limit pro_cn
+# ansible-playbook patch.yml -e patch_path=/home/jeckshi/Downloads/0001-HSI-395-HPST-41560-fixed-issue-with-debit-and-credit.patch --limit pro_cn
