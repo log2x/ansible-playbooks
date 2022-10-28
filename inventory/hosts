@@ -2,6 +2,10 @@
 hpcnx
 hpcna
 hpcnb
+hpcnc
+hpcnd
+hpcne
+hpcnf
 
 [pro_in]
 hpina
@@ -52,18 +56,28 @@ hpaux
 [pro_co]
 hpco
 hpmx_co
+hpcoc
+hpcod
 
 [pro_mx]
 hpmx
 hpco_mx
+hpmxc
+hpmxd
+
 
 [pro_cl]
 hpcl
 hppe_cl
+hpclc
+hpcld
 
 [pro_pe]
 hppe
 hpcl_pe
+hppec
+hpped
+
 
 [pro_ar]
 hpar

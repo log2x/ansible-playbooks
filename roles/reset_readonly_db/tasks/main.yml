@@ -1,0 +1,5 @@
+- name: reset readonly databases password
+  shell: sudo -u ubuntu -H bash /home/ubuntu/scripts/database/password/change-password.sh "{{country}}" 0
+  register: print_result
+
+- debug: var=print_result
