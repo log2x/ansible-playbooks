@@ -35,31 +35,42 @@ hpinx
 [pro_th]
 hptha
 hpthx
-
+hpthc
+hpthd
 
 [pro_id]
 hpida
 hpidx
+hpidc
+hpidd
 
 
 [pro_my]
 hpmy
 hpsg_my
+hpmyc
+hpmyd
 
 
 [pro_sg]
 hpsg
 hpmy_sg
+hpsgc
+hpsgd
 
 
 [pro_kr]
 hpkra
 hpkrx
 hpkrc
+hpkrd
+
 
 [pro_hk]
 hphka
 hphkx
+hphkc
+hphkd
 
 
 [pro_nz]
@@ -74,27 +85,19 @@ hpaux
 [pro_co]
 hpco
 hpmx_co
-hpcoc
-hpcod
 
 [pro_mx]
 hpmx
 hpco_mx
-hpmxc
-hpmxd
 
 
 [pro_cl]
 hpcl
 hppe_cl
-hpclc
-hpcld
 
 [pro_pe]
 hppe
 hpcl_pe
-hppec
-hpped
 
 
 [pro_ar]
