@@ -1,9 +1,0 @@
----
-- name: git patch coding
-  hosts: all
-
-  tasks:
-    - include_role:
-        name: patch_code
-
-# ansible-playbook patch.yml -e patch_path=/home/johnshi/Downloads/xxx --limit pro_cn
