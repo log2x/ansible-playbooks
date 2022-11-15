@@ -48,15 +48,10 @@ hpidd
 [pro_my]
 hpmy
 hpsg_my
-hpmyc
-hpmyd
-
 
 [pro_sg]
 hpsg
 hpmy_sg
-hpsgc
-hpsgd
 
 
 [pro_kr]
@@ -69,9 +64,6 @@ hpkrd
 [pro_hk]
 hphka
 hphkx
-hphkc
-hphkd
-
 
 [pro_nz]
 hpnza
