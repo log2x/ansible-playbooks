@@ -5,8 +5,9 @@
     strip: 1
 
 - name: clean opcache
-  shell: sudo -u ubuntu -H /usr/bin/curl http://localhost:8089/opcache-gui/?reset=1 --user hp:pwd
+  shell: sudo -u ubuntu -H /usr/bin/curl http://localhost:8089/opcache-gui/?reset=1 --user hp:Opov1MIXxG69tIa0g396a7vW
   register: clean_opcache_result
 
-- debug: var=clean_opcache_result.stdout verbosity=0
+# - debug: var=clean_opcache_result.stdout verbosity=0
+- debug: var=clean_opcache_result
 
